@@ -1,0 +1,18 @@
+.slider_container{
+    margin: 40px ;
+    width: 1000px;
+    height: 500px;
+    position: relative;// 絕對定位
+    border: 10px solid;
+    border-color: #fff;
+    border-bottom-width: 100px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;// 邊線陰影
+}
+.slider_container div{
+    position: absolute;// 會跟著滑動
+    top: 0;
+    left: 0;
+    opacity: 0;// 透明度
+    filter: alpha (opacity=0);
+}
